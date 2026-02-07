@@ -1,0 +1,31 @@
+{
+  "version": "1.3.65",
+  "minBootstrapperVersion": "1.0.0",
+  "options": [
+    {
+      "id": "base",
+      "packageType": "base",
+      "name": "Base Installation",
+      "description": "Core app with CPU transcription. GPU support can be downloaded later in-app.",
+      "size": 403384757,
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base.zip",
+      "sha256": "ede5951fdf02f44919aec835ffb508cfc60d1582043366e4c62b4c0d732905e3",
+      "badge": "Recommended",
+      "default": true
+    },
+    {
+      "id": "full",
+      "packageType": "full",
+      "name": "Full Installation",
+      "description": "Everything included: CPU + NVIDIA GPU acceleration. Larger download.",
+      "size": 1511568432,
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full.zip",
+      "sha256": "2ed9d5c0d327c2c86e26afa38d8fddb4cc4a4ff63fc1ae16a5a40c87a849efcf"
+    }
+  ],
+  "installPath": "StarWhisper",
+  "publisher": "StarWhisper",
+  "appExecutable": "StarWhisper.exe",
+  "message": null,
+  "disabled": false
+}
