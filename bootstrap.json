@@ -1,30 +1,30 @@
 {
-  "disabled": false,
-  "options": [
-    {
-      "name": "Base Installation",
-      "id": "base",
-      "default": true,
-      "description": "Lightweight install (~479 MB). High-quality model downloads in background after install.",
-      "badge": "Recommended",
-      "size": 502215276,
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13179.zip",
-      "packageType": "base",
-      "sha256": "2b01433b7ffc1814210e3299b5004118bb9fea088b71bd3d885925215e08dc75"
-    },
-    {
-      "size": 1588263448,
-      "name": "Full Installation",
-      "description": "Includes NVIDIA GPU acceleration + all models pre-bundled (~1515 MB)",
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13179.zip",
-      "sha256": "151b265f50e601388de132117c08ff716d44adc93f3bec10e493fcb85014bfb2",
-      "id": "full",
-      "packageType": "full"
-    }
-  ],
+  "publisher": "StarWhisper",
   "installPath": "StarWhisper",
   "minBootstrapperVersion": "1.0.0",
-  "appExecutable": "StarWhisper.exe",
-  "version": "1.3.179",
-  "publisher": "StarWhisper"
+  "options": [
+    {
+      "badge": "Recommended",
+      "description": "Lightweight install (~479 MB). High-quality model downloads in background after install.",
+      "default": true,
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13180.zip",
+      "name": "Base Installation",
+      "packageType": "base",
+      "sha256": "7271a299a27de3777be7976cb37002fb49410e31e2487dd1030718b3c3cdd121",
+      "id": "base",
+      "size": 502216009
+    },
+    {
+      "description": "Includes NVIDIA GPU acceleration + all models pre-bundled (~1515 MB)",
+      "id": "full",
+      "name": "Full Installation",
+      "sha256": "1002c87e0f2ddba37dd0f7fb802781a6551c42692bb2e781172d1a735789978f",
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13180.zip",
+      "packageType": "full",
+      "size": 1588264181
+    }
+  ],
+  "disabled": false,
+  "version": "1.3.180",
+  "appExecutable": "StarWhisper.exe"
 }
