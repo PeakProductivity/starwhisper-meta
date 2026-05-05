@@ -1,30 +1,30 @@
 {
-  "installPath": "StarWhisper",
-  "disabled": false,
-  "version": "1.3.192",
   "minBootstrapperVersion": "1.0.0",
+  "appExecutable": "StarWhisper.exe",
   "options": [
     {
       "id": "base",
-      "default": true,
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13192.zip",
-      "size": 502255683,
-      "name": "Base Installation",
       "packageType": "base",
+      "badge": "Recommended",
+      "name": "Base Installation",
+      "size": 502255684,
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13193.zip",
       "description": "Lightweight install (~479 MB). High-quality model downloads in background after install.",
-      "sha256": "674169cc0fbe44b773fafbc5d84be92167b47083143521f6aa81f74197645210",
-      "badge": "Recommended"
+      "default": true,
+      "sha256": "866f5b1493add4ac8881f36d2816b9e71b058d57f1caf3d4f40a8c1129e419a8"
     },
     {
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13193.zip",
       "name": "Full Installation",
-      "packageType": "full",
-      "id": "full",
-      "sha256": "88fbecf11c1207066df56aea1354c381064d721f829583fcbac9ba39fdf40d21",
       "description": "Includes NVIDIA GPU acceleration + all models pre-bundled (~1515 MB)",
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13192.zip",
-      "size": 1588303855
+      "sha256": "f5b5e36c7b404baac37a0d0c9b99828953f97a7ebbe1a0803d4daaecf24773b4",
+      "id": "full",
+      "packageType": "full",
+      "size": 1588303856
     }
   ],
   "publisher": "StarWhisper",
-  "appExecutable": "StarWhisper.exe"
+  "disabled": false,
+  "installPath": "StarWhisper",
+  "version": "1.3.193"
 }
