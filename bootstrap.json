@@ -1,30 +1,30 @@
 {
-  "options": [
-    {
-      "name": "Base Installation",
-      "sha256": "43d777d23b2f067b7b2d55ada017c81083221e077f8f641522c34c9d0262f207",
-      "id": "base",
-      "description": "Lightweight install (~498 MB). High-quality model downloads in background after install.",
-      "default": true,
-      "size": 522428470,
-      "badge": "Recommended",
-      "packageType": "base",
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13218.zip"
-    },
-    {
-      "size": 2229760900,
-      "packageType": "full",
-      "description": "Includes NVIDIA GPU acceleration + all models pre-bundled (~2126 MB)",
-      "id": "full",
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13218.zip",
-      "sha256": "6464a5ed6dbe3bf7a2d8509b3e3bcfd747827502389accb8f6da1c5a705a41b9",
-      "name": "Full Installation"
-    }
-  ],
+  "version": "1.3.219",
   "disabled": false,
   "minBootstrapperVersion": "1.0.0",
-  "version": "1.3.218",
+  "publisher": "StarWhisper",
   "installPath": "StarWhisper",
-  "appExecutable": "StarWhisper.exe",
-  "publisher": "StarWhisper"
+  "options": [
+    {
+      "sha256": "3a1c8d4d7ccc4c764273125cbbe9d80b572565c1abc8a108903172341e67779d",
+      "badge": "Recommended",
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13219.zip",
+      "description": "Lightweight install (~498 MB). High-quality model downloads in background after install.",
+      "packageType": "base",
+      "name": "Base Installation",
+      "size": 522429284,
+      "default": true,
+      "id": "base"
+    },
+    {
+      "sha256": "de658ca2399ca094abe657d50163e7f47f63026df4dea043ee94a5fc4583767f",
+      "description": "Includes NVIDIA GPU acceleration + all models pre-bundled (~2126 MB)",
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13219.zip",
+      "packageType": "full",
+      "name": "Full Installation",
+      "id": "full",
+      "size": 2229761714
+    }
+  ],
+  "appExecutable": "StarWhisper.exe"
 }
