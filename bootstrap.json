@@ -1,30 +1,30 @@
 {
+  "minBootstrapperVersion": "1.0.0",
   "appExecutable": "StarWhisper.exe",
-  "version": "1.3.258",
-  "options": [
-    {
-      "size": 523131415,
-      "sha256": "d16911699d2a4eb70574eb50a10d03622452869c5b3d9bb7e870df7fdea362a0",
-      "description": "Standard install (~499 MB). Faster setup; high-quality models download automatically after install.",
-      "badge": "Recommended",
-      "default": true,
-      "id": "base",
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13258.zip",
-      "packageType": "base",
-      "name": "Base Installation"
-    },
-    {
-      "name": "Full Installation",
-      "sha256": "5990b5a25c9bc5178810d48d6b81968357ad7320f73f036756f0e93910058109",
-      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13258.zip",
-      "id": "full",
-      "description": "Everything bundled: NVIDIA GPU acceleration + all models (~2414 MB). Larger download.",
-      "packageType": "full",
-      "size": 2530976349
-    }
-  ],
-  "publisher": "StarWhisper",
   "disabled": false,
   "installPath": "StarWhisper",
-  "minBootstrapperVersion": "1.0.0"
+  "version": "1.3.259",
+  "options": [
+    {
+      "id": "base",
+      "default": true,
+      "size": 523134964,
+      "packageType": "base",
+      "name": "Base Installation",
+      "description": "Standard install (~499 MB). Faster setup; high-quality models download automatically after install.",
+      "sha256": "fa18440c11569b9dd69a6a2ac52c61d4bd7079c414f8dda1d3c16bf04680c4f2",
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Base-v13259.zip",
+      "badge": "Recommended"
+    },
+    {
+      "url": "https://starwhisper.ai/downloads/StarWhisper-Core-Full-v13259.zip",
+      "name": "Full Installation",
+      "description": "Everything bundled: NVIDIA GPU acceleration + all models (~2414 MB). Larger download.",
+      "id": "full",
+      "size": 2530979889,
+      "sha256": "57b1215774a083fa5d9066346e641681f75d238940cf932279bd6fc9ff219db2",
+      "packageType": "full"
+    }
+  ],
+  "publisher": "StarWhisper"
 }
